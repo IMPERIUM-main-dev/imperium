@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[imperium.qt-translation-017x]
+file_filter = src/qt/locale/imperium_<lang>.ts
+source_file = src/qt/locale/imperium_en.ts
+source_lang = en

@@ -1,0 +1,1823 @@
+libimperium_util_a-logging.o: logging.cpp logging.h fs.h \
+ /usr/share/mingw-w64/include/stdio.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_directx.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/share/mingw-w64/include/_mingw_print_push.h \
+ /usr/share/mingw-w64/include/_mingw_off_t.h \
+ /usr/x86_64-w64-mingw32/include/swprintf.inl \
+ /usr/share/mingw-w64/include/sec_api/stdio_s.h \
+ /usr/share/mingw-w64/include/_mingw_print_pop.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/string \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stringfwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/memoryfwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/char_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_algobase.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/functexcept.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cpp_type_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/type_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/numeric_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_pair.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/move.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/concept_check.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/type_traits \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator_base_types.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator_base_funcs.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/debug/assertions.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ptr_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/debug/debug.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/predefined_ops.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/postypes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cwchar \
+ /usr/share/mingw-w64/include/wchar.h \
+ /usr/share/mingw-w64/include/_mingw_stat64.h \
+ /usr/share/mingw-w64/include/sec_api/wchar_s.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdint \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stdint.h \
+ /usr/share/mingw-w64/include/stdint.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stddef.h \
+ /usr/share/mingw-w64/include/stddef.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/new_allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/new \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/exception \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception_ptr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cxxabi_init_exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/typeinfo \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/hash_bytes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/nested_exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/localefwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/clocale \
+ /usr/share/mingw-w64/include/locale.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iosfwd \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cctype \
+ /usr/share/mingw-w64/include/ctype.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ostream_insert.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cxxabi_forced.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_function.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/backward/binders.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/range_access.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/initializer_list \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_string.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/atomicity.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ /usr/share/mingw-w64/include/pthread.h \
+ /usr/share/mingw-w64/include/errno.h \
+ /usr/share/mingw-w64/include/sys/types.h \
+ /usr/share/mingw-w64/include/process.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include-fixed/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/signal.h \
+ /usr/share/mingw-w64/include/pthread_signal.h \
+ /usr/share/mingw-w64/include/sys/timeb.h \
+ /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h \
+ /usr/share/mingw-w64/include/pthread_compat.h \
+ /usr/share/mingw-w64/include/pthread_unistd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/alloc_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/alloc_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/string_conversions.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdlib \
+ /usr/share/mingw-w64/include/stdlib.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/stdlib.h \
+ /usr/share/mingw-w64/include/malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/std_abs.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdio \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cerrno \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/functional_hash.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_string.tcc \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/config.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/user.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/select_compiler_config.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/compiler/gcc.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstddef \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/select_stdlib_config.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/stdlib/libstdcpp3.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/select_platform_config.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/platform/win32.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/suffix.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/system/api_config.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/workaround.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/auto_link.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/path.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/path_traits.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/utility/enable_if.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/enable_if.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_array.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/integral_constant.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/decay.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_function.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_reference.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_lvalue_reference.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_rvalue_reference.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/detail/config.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/version.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/detail/is_function_ptr_helper.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_bounds.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_extent.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/add_pointer.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_reference.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_cv.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/system/error_code.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/system/config.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform/mingw.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/version_number.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/make.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/test.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/platform_detected.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform/windows_desktop.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/windows.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/os_detected.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform/windows_store.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform/windows_phone.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform/windows_runtime.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/cstdint.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/assert.hpp \
+ /usr/share/mingw-w64/include/assert.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/noncopyable.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/noncopyable.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ostream \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ios \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ios_base.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_classes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_classes.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/system_error \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/stdexcept \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/streambuf \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/streambuf.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_ios.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cwctype \
+ /usr/share/mingw-w64/include/wctype.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/streambuf_iterator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_ios.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ostream.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/functional \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/tuple \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/utility \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_relops.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/array \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/uses_allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/invoke.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/std_function.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/refwrap.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/cerrno.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/abi_prefix.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/abi_suffix.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/vector \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_construct.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_uninitialized.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_vector.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_bvector.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/vector.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/list \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_list.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocated_ptr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/aligned_buffer.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/list.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iterator \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/istream \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/istream.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stream_iterator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/locale \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets_nonio.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ctime \
+ /usr/share/mingw-w64/include/time.h \
+ /usr/share/mingw-w64/include/_timeval.h \
+ /usr/share/mingw-w64/include/pthread_time.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/codecvt.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets_nonio.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_conv.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stringfwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/codecvt.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/unique_ptr.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/system/system_error.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cassert \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/iterator_facade.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/interoperable.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/bool.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/bool_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/adl_barrier.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/adl.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/msvc.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/intel.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/gcc.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/workaround.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/integral_c_tag.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/static_constant.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/or.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/use_preprocessed.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/nested_type_wknd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/na_spec.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/lambda_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/void_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/na.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/na_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/ctps.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/lambda.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/ttp.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/int.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/int_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/nttp_decl.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/nttp.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/integral_wrapper.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/static_cast.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/cat.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/config/config.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/lambda_arity_param.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/template_arity_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/arity.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/dtp.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessor/params.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/preprocessor.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/comma_if.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/punctuation/comma_if.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/control/if.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/control/iif.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/logical/bool.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/facilities/empty.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/punctuation/comma.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/repeat.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/repetition/repeat.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/debug/error.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/detail/auto_rec.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/tuple/eat.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/inc.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/arithmetic/inc.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessor/enum.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/limits/arity.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/logical/and.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/logical/bitand.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/identity.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/facilities/identity.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/empty.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/arithmetic/add.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/arithmetic/dec.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/control/while.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/fold_left.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/detail/fold_left.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/control/expr_iif.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/adt.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/detail/is_binary.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/detail/check.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/logical/compl.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/fold_right.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/detail/fold_right.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/reverse.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/control/detail/while.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/tuple/elem.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/facilities/expand.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/facilities/overload.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/variadic/size.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/tuple/rem.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/variadic/elem.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/arithmetic/sub.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/eti.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/overload_resolution.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/lambda_support.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/include_preprocessed.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/compiler.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/stringize.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_convertible.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/intrinsics.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/detail/yes_no_type.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_arithmetic.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_integral.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_floating_point.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_void.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_abstract.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/add_lvalue_reference.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/add_reference.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/add_rvalue_reference.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/declval.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/detail/config_def.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/detail/config_undef.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/iterator_traits.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/iterator.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/iterator_categories.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/eval_if.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/if.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/value_wknd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/integral.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/identity.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/placeholders.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/arg.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/arg_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/na_assert.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/assert.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/not.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/yes_no.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/arrays.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/gpu.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/pp_counter.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/arity_spec.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/arg_typedef.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/static_assert.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/detail/facade_iterator_category.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/and.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_same.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_const.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/indirect_traits.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_pointer.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_class.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_volatile.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_member_function_pointer.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_member_pointer.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_pointer.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/detail/enable_if.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/utility/addressof.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/addressof.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/add_const.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_const.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_pod.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_scalar.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_enum.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/always.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessor/default_params.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/apply.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/apply_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/apply_wrap.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/has_apply.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/has_xxx.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/type_wrapper.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/has_xxx.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/msvc_typename.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/array/elem.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/array/data.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/array/size.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/repetition/enum_params.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/has_apply.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/msvc_never_true.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/lambda.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/bind.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/bind_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/bind.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/next.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/next_prior.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/common_name_wknd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/protect.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/full_lambda.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/quote.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/void.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/has_type.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/bcc.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/template_arity.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/shared_ptr.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/shared_ptr.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/no_tr1/memory.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/memory \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_tempbuf.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_raw_storage_iter.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/concurrence.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/unique_ptr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr_base.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr_atomic.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/atomic_base.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/atomic_lockfree_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/backward/auto_ptr.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/checked_delete.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/checked_delete.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/throw_exception.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/exception/exception.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/current_function.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/shared_count.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/bad_weak_ptr.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_counted_base.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_has_sync.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_counted_base_std_atomic.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/sp_typeinfo.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/typeinfo.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/demangle.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cxxabi.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/cxxabi_tweaks.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/atomic \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_convertible.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_noexcept.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/spinlock_pool.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/spinlock.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/spinlock_std_atomic.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/yield_k.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/language.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/language/stdc.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/language/stdcpp.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/language/objc.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/alpha.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/arm.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/blackfin.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/convex.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/ia64.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/m68k.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/mips.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/parisc.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/ppc.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/pyramid.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/rs6k.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/sparc.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/superh.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/sys370.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/sys390.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/x86.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/x86/32.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/x86/64.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/z.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/borland.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/clang.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/comeau.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/compaq.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/diab.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/digitalmars.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/dignus.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/edg.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/ekopath.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/gcc_xml.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/gcc.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/comp_detected.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/greenhills.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/hp_acc.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/iar.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/ibm.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/intel.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/kai.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/llvm.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/metaware.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/metrowerks.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/microtec.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/mpw.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/palm.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/pgi.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/sgi_mipspro.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/sunpro.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/tendra.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/visualc.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/watcom.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c/_prefix.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/_cassert.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c/gnu.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c/uc.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c/vms.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c/zos.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/_prefix.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/_exception.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/cxx.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/dinkumware.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/libcomo.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/modena.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/msl.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/roguewave.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/sgi.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/stdcpp3.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/stlport.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/vacpp.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/aix.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/amigaos.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/android.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/beos.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/macos.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/ios.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd/bsdi.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd/dragonfly.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd/free.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd/open.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd/net.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/cygwin.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/haiku.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/hpux.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/irix.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/linux.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/os400.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/qnxnto.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/solaris.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/unix.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/vms.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/other.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/other/endian.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/x86.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/x86/versions.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/x86_amd.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/x86_amd/versions.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/arm.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/arm/versions.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/ppc.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/ppc/versions.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/version.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/algorithm \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_algo.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/algorithmfwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_heap.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/uniform_int_dist.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/limits \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/operator_bool.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/io/detail/quoted_manip.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/io/ios_state.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/io_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/functional/hash_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/functional/hash/hash_fwd.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstring \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/operations.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/scoped_enum_emulation.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/scoped_enum.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/bitmask.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/mutable_iterator.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/config.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/range_fwd.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/detail/extract_optional_type.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/detail/msvc_has_iterator_workaround.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/const_iterator.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/stack \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/deque \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_deque.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/deque.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_stack.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/fstream \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/fstream.tcc \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/convenience.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/string_file.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/fstream.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/detail/utf8_codecvt_facet.hpp \
+ /imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/utf8_codecvt_facet.hpp \
+ tinyformat.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iostream \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/sstream \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/sstream.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/mutex \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/chrono \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ratio \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/parse_numbers.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/std_mutex.h \
+ utiltime.h
+
+logging.h:
+
+fs.h:
+
+/usr/share/mingw-w64/include/stdio.h:
+
+/usr/share/mingw-w64/include/crtdefs.h:
+
+/usr/share/mingw-w64/include/_mingw.h:
+
+/usr/share/mingw-w64/include/_mingw_mac.h:
+
+/usr/share/mingw-w64/include/_mingw_secapi.h:
+
+/usr/share/mingw-w64/include/vadefs.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_directx.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
+
+/usr/share/mingw-w64/include/_mingw_print_push.h:
+
+/usr/share/mingw-w64/include/_mingw_off_t.h:
+
+/usr/x86_64-w64-mingw32/include/swprintf.inl:
+
+/usr/share/mingw-w64/include/sec_api/stdio_s.h:
+
+/usr/share/mingw-w64/include/_mingw_print_pop.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/string:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stringfwd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/memoryfwd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/char_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_algobase.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/functexcept.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception_defines.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cpp_type_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/type_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/numeric_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_pair.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/move.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/concept_check.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/type_traits:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator_base_types.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator_base_funcs.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/debug/assertions.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ptr_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/debug/debug.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/predefined_ops.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/postypes.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cwchar:
+
+/usr/share/mingw-w64/include/wchar.h:
+
+/usr/share/mingw-w64/include/_mingw_stat64.h:
+
+/usr/share/mingw-w64/include/sec_api/wchar_s.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdint:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stdint.h:
+
+/usr/share/mingw-w64/include/stdint.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stddef.h:
+
+/usr/share/mingw-w64/include/stddef.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/new_allocator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/new:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/exception:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cxxabi_init_exception.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/typeinfo:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/hash_bytes.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/nested_exception.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/localefwd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/clocale:
+
+/usr/share/mingw-w64/include/locale.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iosfwd:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cctype:
+
+/usr/share/mingw-w64/include/ctype.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ostream_insert.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cxxabi_forced.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_function.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/backward/binders.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/range_access.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/initializer_list:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_string.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/atomicity.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/gthr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
+
+/usr/share/mingw-w64/include/pthread.h:
+
+/usr/share/mingw-w64/include/errno.h:
+
+/usr/share/mingw-w64/include/sys/types.h:
+
+/usr/share/mingw-w64/include/process.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include-fixed/syslimits.h:
+
+/usr/share/mingw-w64/include/limits.h:
+
+/usr/share/mingw-w64/include/signal.h:
+
+/usr/share/mingw-w64/include/pthread_signal.h:
+
+/usr/share/mingw-w64/include/sys/timeb.h:
+
+/usr/share/mingw-w64/include/sec_api/sys/timeb_s.h:
+
+/usr/share/mingw-w64/include/pthread_compat.h:
+
+/usr/share/mingw-w64/include/pthread_unistd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/alloc_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/alloc_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/string_conversions.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdlib:
+
+/usr/share/mingw-w64/include/stdlib.h:
+
+/usr/share/mingw-w64/include/sec_api/stdlib_s.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/stdlib.h:
+
+/usr/share/mingw-w64/include/malloc.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/std_abs.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdio:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cerrno:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/functional_hash.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_string.tcc:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/config.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/user.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/select_compiler_config.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/compiler/gcc.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstddef:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/select_stdlib_config.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/stdlib/libstdcpp3.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/select_platform_config.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/platform/win32.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/suffix.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/system/api_config.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/workaround.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/auto_link.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/path.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/path_traits.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/utility/enable_if.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/enable_if.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_array.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/integral_constant.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/decay.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_function.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_reference.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_lvalue_reference.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_rvalue_reference.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/detail/config.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/version.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/detail/is_function_ptr_helper.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_bounds.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_extent.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/add_pointer.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_reference.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_cv.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/system/error_code.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/system/config.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform/mingw.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/version_number.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/make.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/test.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/platform_detected.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform/windows_desktop.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/windows.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/os_detected.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform/windows_store.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform/windows_phone.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/platform/windows_runtime.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/cstdint.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/assert.hpp:
+
+/usr/share/mingw-w64/include/assert.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/noncopyable.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/noncopyable.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ostream:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ios:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ios_base.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_classes.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_classes.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/system_error:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/stdexcept:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/streambuf:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/streambuf.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_ios.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cwctype:
+
+/usr/share/mingw-w64/include/wctype.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/streambuf_iterator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_ios.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ostream.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/functional:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/tuple:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/utility:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_relops.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/array:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/uses_allocator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/invoke.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/std_function.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/refwrap.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/cerrno.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/abi_prefix.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/abi_suffix.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/vector:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_construct.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_uninitialized.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_vector.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_bvector.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/vector.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/list:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_list.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocated_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/aligned_buffer.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/list.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iterator:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/istream:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/istream.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stream_iterator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/locale:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets_nonio.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ctime:
+
+/usr/share/mingw-w64/include/time.h:
+
+/usr/share/mingw-w64/include/_timeval.h:
+
+/usr/share/mingw-w64/include/pthread_time.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/time_members.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/codecvt.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets_nonio.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_conv.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stringfwd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/codecvt.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/unique_ptr.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/system/system_error.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cassert:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/iterator_facade.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/interoperable.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/bool.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/bool_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/adl_barrier.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/adl.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/msvc.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/intel.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/gcc.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/workaround.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/integral_c_tag.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/static_constant.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/or.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/use_preprocessed.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/nested_type_wknd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/na_spec.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/lambda_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/void_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/na.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/na_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/ctps.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/lambda.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/ttp.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/int.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/int_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/nttp_decl.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/nttp.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/integral_wrapper.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/static_cast.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/cat.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/config/config.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/arity.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/dtp.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessor/params.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/preprocessor.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/comma_if.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/punctuation/comma_if.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/control/if.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/control/iif.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/logical/bool.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/facilities/empty.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/punctuation/comma.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/repeat.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/repetition/repeat.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/debug/error.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/detail/auto_rec.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/tuple/eat.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/inc.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/arithmetic/inc.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessor/enum.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/limits/arity.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/logical/and.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/logical/bitand.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/identity.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/facilities/identity.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/empty.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/arithmetic/add.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/arithmetic/dec.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/control/while.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/fold_left.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/detail/fold_left.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/control/expr_iif.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/adt.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/detail/is_binary.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/detail/check.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/logical/compl.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/fold_right.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/detail/fold_right.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/list/reverse.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/control/detail/while.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/tuple/elem.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/facilities/expand.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/facilities/overload.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/variadic/size.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/tuple/rem.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/tuple/detail/is_single_return.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/variadic/elem.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/arithmetic/sub.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/eti.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/overload_resolution.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/lambda_support.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/include_preprocessed.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/compiler.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/stringize.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_convertible.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/intrinsics.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/detail/yes_no_type.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_arithmetic.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_integral.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_floating_point.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_void.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_abstract.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/add_lvalue_reference.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/add_reference.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/add_rvalue_reference.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/declval.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/detail/config_def.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/detail/config_undef.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/iterator_traits.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/iterator.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/iterator_categories.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/eval_if.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/if.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/value_wknd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/integral.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/identity.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/placeholders.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/arg.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/arg_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/na_assert.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/assert.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/not.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/yes_no.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/arrays.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/gpu.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/pp_counter.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/arity_spec.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/arg_typedef.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/arg.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/static_assert.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/detail/facade_iterator_category.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/and.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_same.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_const.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/indirect_traits.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_pointer.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_class.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_volatile.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_member_function_pointer.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_member_pointer.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_pointer.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/iterator/detail/enable_if.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/utility/addressof.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/addressof.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/add_const.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/remove_const.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_pod.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_scalar.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/type_traits/is_enum.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/always.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessor/default_params.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/apply.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/apply_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/apply_wrap.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/has_apply.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/has_xxx.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/type_wrapper.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/has_xxx.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/msvc_typename.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/array/elem.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/array/data.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/array/size.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/repetition/enum_params.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/has_apply.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/msvc_never_true.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/lambda.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/bind.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/bind_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/bind.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/next.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/next_prior.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/common_name_wknd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/protect.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/full_lambda.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/quote.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/void.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/has_type.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/config/bcc.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/template_arity.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/shared_ptr.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/shared_ptr.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/config/no_tr1/memory.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/memory:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_tempbuf.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_raw_storage_iter.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/concurrence.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/unique_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr_base.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr_atomic.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/atomic_base.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/atomic_lockfree_defines.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/backward/auto_ptr.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/checked_delete.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/checked_delete.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/throw_exception.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/exception/exception.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/current_function.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/shared_count.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/bad_weak_ptr.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_counted_base.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_has_sync.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_counted_base_std_atomic.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/sp_typeinfo.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/typeinfo.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/demangle.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cxxabi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/cxxabi_tweaks.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/atomic:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_counted_impl.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/sp_noexcept.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/spinlock_pool.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/spinlock.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/spinlock_std_atomic.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/yield_k.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/language.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/language/stdc.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/language/stdcpp.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/language/objc.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/alpha.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/arm.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/blackfin.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/convex.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/ia64.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/m68k.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/mips.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/parisc.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/ppc.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/pyramid.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/rs6k.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/sparc.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/superh.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/sys370.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/sys390.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/x86.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/x86/32.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/x86/64.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/architecture/z.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/borland.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/clang.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/comeau.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/compaq.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/diab.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/digitalmars.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/dignus.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/edg.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/ekopath.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/gcc_xml.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/gcc.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/comp_detected.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/greenhills.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/hp_acc.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/iar.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/ibm.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/intel.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/kai.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/llvm.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/metaware.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/metrowerks.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/microtec.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/mpw.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/palm.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/pgi.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/sgi_mipspro.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/sunpro.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/tendra.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/visualc.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/compiler/watcom.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c/_prefix.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/_cassert.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c/gnu.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c/uc.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c/vms.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/c/zos.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/_prefix.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/detail/_exception.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/cxx.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/dinkumware.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/libcomo.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/modena.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/msl.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/roguewave.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/sgi.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/stdcpp3.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/stlport.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/library/std/vacpp.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/aix.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/amigaos.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/android.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/beos.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/macos.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/ios.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd/bsdi.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd/dragonfly.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd/free.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd/open.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/bsd/net.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/cygwin.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/haiku.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/hpux.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/irix.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/linux.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/os400.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/qnxnto.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/solaris.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/unix.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/os/vms.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/other.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/other/endian.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/x86.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/x86/versions.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/x86_amd.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/x86_amd/versions.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/arm.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/arm/versions.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/ppc.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/hardware/simd/ppc/versions.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/predef/version.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/algorithm:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_algo.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/algorithmfwd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_heap.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/uniform_int_dist.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/limits:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/smart_ptr/detail/operator_bool.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/io/detail/quoted_manip.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/io/ios_state.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/io_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/functional/hash_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/functional/hash/hash_fwd.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstring:
+
+/usr/share/mingw-w64/include/string.h:
+
+/usr/share/mingw-w64/include/sec_api/string_s.h:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/operations.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/scoped_enum_emulation.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/core/scoped_enum.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/bitmask.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/mutable_iterator.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/config.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/range_fwd.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/detail/extract_optional_type.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/detail/msvc_has_iterator_workaround.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/range/const_iterator.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/stack:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/deque:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_deque.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/deque.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_stack.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/fstream:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/basic_file.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++io.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/fstream.tcc:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/convenience.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/string_file.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/fstream.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/filesystem/detail/utf8_codecvt_facet.hpp:
+
+/imperium/depends/x86_64-w64-mingw32/share/../include/boost/detail/utf8_codecvt_facet.hpp:
+
+tinyformat.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iostream:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/sstream:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/sstream.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/mutex:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/chrono:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ratio:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/parse_numbers.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/std_mutex.h:
+
+utiltime.h:
