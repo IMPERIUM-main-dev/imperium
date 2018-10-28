@@ -20,7 +20,7 @@ RUN apt-get install -y git
 
 RUN git clone https://github.com/IMPERIUM-main-dev/imperium
 
-RUN cd imperium
+WORKDIR /imperium
 
 RUN ./autogen.sh
 
