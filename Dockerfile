@@ -2,21 +2,21 @@ FROM ubuntu:18.04
 
 RUN apt-get update
 
-RUN apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
+RUN apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
 
-RUN apt-get install software-properties-common
+RUN apt-get install -y software-properties-common
 
-RUN add-apt-repository ppa:bitcoin/bitcoin
+RUN add-apt-repository -y ppa:bitcoin/bitcoin
 
 RUN apt-get update
 
-RUN apt-get install libdb4.8-dev libdb4.8++-dev
+RUN apt-get install -y libdb4.8-dev libdb4.8++-dev
 
-RUN apt-get install libminiupnpc-dev
+RUN apt-get install -y libminiupnpc-dev
 
-RUN apt-get install libzmq3-dev
+RUN apt-get install -y libzmq3-dev
 
-RUN apt-get install git
+RUN apt-get install -y git
 
 RUN git clone https://github.com/IMPERIUM-main-dev/imperium
 
