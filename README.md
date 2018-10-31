@@ -31,13 +31,13 @@ Total supply : 210 000 000 IMPs
 
 Pre-Mine : 37 800 000 IMPs ( 18 % )
 
-Pre-Mine repartition : 4 % Charities , 4 % I.C.O. , 4 % Bounties & Air-drops , 6 % Development
+Pre-Mine repartition : 3.57 % Charities , 4.76 % I.C.O. , 2.67 % Bounties & Air-drops , 7 % Development
 
 Public mining : 172 200 000 IMPs ( 82 % )
 
 Initial mining reward : 50 IMPs
 
-Mining Reward Halved every : 2 100 000 blocks ( every four years on average )
+Mining Reward Halved every : 2 100 000 blocks ( every four years on average except a bit less than 3 years for first stage)
 
 Block time : 1 minute
 
@@ -56,23 +56,23 @@ Will be updated soon :
 
 More information :
 
-Binary releases :
+Binary releases : will be updated very soon
 
-White paper :
+White paper : http://the-imperium.cf:6112/assets/files/white-paper.pdf
 
-Road map :
+Road map : http://the-imperium.cf:6112/#map
 
-bitcointalk.org ANN :
+bitcointalk.org ANN : will be updated very soon
 
-discord channel :
+discord channel : none yet
 
-facebook page :
+facebook page : none yet
 
-youtube page :
+youtube page : none yet
 
-Initial coin offering ( ICO ) Website : 
+Initial coin offering ( ICO ) Website : http://the-imperium.cf:6112/
 
-Exchanges listings :
+Exchanges listings : Will be announced after the ICO
 
 
 
