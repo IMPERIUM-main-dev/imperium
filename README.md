@@ -56,7 +56,7 @@ Will be updated soon :
 
 More information :
 
-Binary releases : will be updated very soon
+Windows 64bits Binary release : https://ufile.io/jcu7c
 
 White paper : http://the-imperium.cf:6112/assets/files/white-paper.pdf
 
@@ -64,13 +64,17 @@ Road map : http://the-imperium.cf:6112/#map
 
 bitcointalk.org ANN : will be updated very soon
 
-discord channel : none yet
+discord channel : will be announced later today
 
 facebook page : none yet
 
 youtube page : none yet
 
 Initial coin offering ( ICO ) Website : http://the-imperium.cf:6112/
+
+Official Imperium Pool : http://the-imperium.cf:6114/
+
+Official Imperium Block Explorer : http://the-imperium.cf:6116/
 
 Exchanges listings : Will be announced after the ICO
 
