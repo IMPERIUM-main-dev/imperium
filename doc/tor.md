@@ -40,11 +40,11 @@ config file): *Needed for Tor version 0.2.7.0 and older versions of Tor only. Fo
 versions of Tor see [Section 3](#3-automatically-listen-on-tor).*
 
 	HiddenServiceDir /var/lib/tor/imperium-service/
-	HiddenServicePort 9781 127.0.0.1:9781
-	HiddenServicePort 19781 127.0.0.1:19781
+	HiddenServicePort 9630 127.0.0.1:9630
+	HiddenServicePort 19630 127.0.0.1:19630
 
 The directory can be different of course, but (both) port numbers should be equal to
-your imperiumd's P2P listen port (9781 by default).
+your imperiumd's P2P listen port (9630 by default).
 
 	-externalip=X   You can tell imperium about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -79,7 +79,7 @@ as well, use `discover` instead:
 
 	./imperiumd ... -discover
 
-and open port 9781 on your firewall (or use -upnp).
+and open port 9630 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach .onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:

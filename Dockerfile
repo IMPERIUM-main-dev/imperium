@@ -34,4 +34,4 @@ RUN mkdir /root/.imperium
 
 RUN cp imperium.conf /root/.imperium/imperium.conf
 
-EXPOSE 9780 9781
+EXPOSE 9629 9630

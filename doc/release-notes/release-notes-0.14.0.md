@@ -430,7 +430,7 @@ and git merge commit are mentioned.
 - #8589 `e8cfe1e` Inline CTxInWitness inside CTxIn (sipa)
 - #9349 `2db4cbc` Make CScript (and prevector) c++11 movable (sipa)
 - #9252 `ce5c1f4` Release cs\_main before calling ProcessNewBlock, or processing headers (cmpctblock handling) (sdaftuar)
-- #9283 `869781c` A few more CTransactionRef optimizations (sipa)
+- #9283 `869630c` A few more CTransactionRef optimizations (sipa)
 - #9499 `9c9af5a` Use recent-rejects, orphans, and recently-replaced txn for compact-block-reconstruction (TheBlueMatt)
 - #9813 `3972a8e` Read/write mempool.dat as a binary (paveljanik)
 
@@ -675,7 +675,7 @@ and git merge commit are mentioned.
 - #9839 `eddaa6b` [qa] Make import-rescan.py watchonly check reliable (ryanofsky)
 
 ### Documentation
-- #9780 `806b9e7` Clarify witness branches in transaction.h serialization (dcousens)
+- #9629 `806b9e7` Clarify witness branches in transaction.h serialization (dcousens)
 - #8935 `0306978` Documentation: Building on Windows with WSL (pooleja)
 - #9144 `c98f6b3` Correct waitforblockheight example help text (fanquake)
 - #9407 `041331e` Added missing colons in when running help command (anditto)

@@ -152,7 +152,7 @@ Imperium Core 0.15.0 contains the following changes to the RPC interface and `im
 
 * When running Imperium Core with a single wallet, there are **no** changes to the RPC interface or `imperium-cli`. All RPC calls and `imperium-cli` commands continue to work as before.
 * When running Imperium Core with multi-wallet, all *node-level* RPC methods continue to work as before. HTTP RPC requests should be send to the normal `<RPC IP address>:<RPC port>` endpoint, and `imperium-cli` commands should be run as before. A *node-level* RPC method is any method which does not require access to the wallet.
-* When running Imperium Core with multi-wallet, *wallet-level* RPC methods must specify the wallet for which they're intended in every request. HTTP RPC requests should be send to the `<RPC IP address>:<RPC port>/wallet/<wallet name>` endpoint, for example `127.0.0.1:9780/wallet/wallet1.dat`. `imperium-cli` commands should be run with a `-rpcwallet` option, for example `imperium-cli -rpcwallet=wallet1.dat getbalance`.
+* When running Imperium Core with multi-wallet, *wallet-level* RPC methods must specify the wallet for which they're intended in every request. HTTP RPC requests should be send to the `<RPC IP address>:<RPC port>/wallet/<wallet name>` endpoint, for example `127.0.0.1:9629/wallet/wallet1.dat`. `imperium-cli` commands should be run with a `-rpcwallet` option, for example `imperium-cli -rpcwallet=wallet1.dat getbalance`.
 * A new *node-level* `listwallets` RPC method is added to display which wallets are currently loaded. The names returned by this method are the same as those used in the HTTP endpoint and for the `rpcwallet` argument.
 
 Note that while multi-wallet is now fully supported, the RPC multi-wallet interface should be considered unstable for version 0.15.0, and there may backwards-incompatible changes in future versions.
@@ -584,7 +584,7 @@ Low-level RPC changes
 - #10069 `1118493` [QA] Fix typo in fundrawtransaction test (NicolasDorier)
 - #10083 `c044f03` [QA] Renaming rawTx into rawtx (NicolasDorier)
 - #10073 `b1a4f27` Actually run assumevalid.py (jnewbery)
-- #9780 `c412fd8` Suppress noisy output from qa tests in Travis (jnewbery)
+- #9629 `c412fd8` Suppress noisy output from qa tests in Travis (jnewbery)
 - #10096 `79af9fb` Check that all test scripts in test/functional are being run (jnewbery)
 - #10076 `5b029aa` [qa] combine_logs: Use ordered list for logfiles (MarcoFalke)
 - #10107 `f2734c2` Remove unused variable. Remove accidental trailing semicolons in Python code (practicalswift)

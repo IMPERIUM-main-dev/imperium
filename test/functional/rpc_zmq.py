@@ -11,7 +11,7 @@ from test_framework.util import assert_equal
 
 class RPCZMQTest(ImperiumTestFramework):
 
-    address = "tcp://127.0.0.1:29780"
+    address = "tcp://127.0.0.1:29629"
 
     def set_test_params(self):
         self.num_nodes = 1

@@ -113,10 +113,10 @@ public:
          * a large 32-bit integer with any alignment.
          */
         pchMessageStart[0] = 0xf9;
-        pchMessageStart[1] = 0xb7;
-        pchMessageStart[2] = 0xb8;
-        pchMessageStart[3] = 0xd1;
-        nDefaultPort = 9781;
+        pchMessageStart[1] = 0xb6;
+        pchMessageStart[2] = 0xb3;
+        pchMessageStart[3] = 0xd0;
+        nDefaultPort = 9630;
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1539732399, 4227299255, 0x1d00ffff, 1, 37800000 * COIN);
@@ -211,11 +211,11 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x0000000000000037a8cd3e06cd5edbfe9dd1dbcc5dacab279376ef7cfc2b4c75"); //1354312
 
-        pchMessageStart[0] = 0x0b;
-        pchMessageStart[1] = 0x11;
-        pchMessageStart[2] = 0x09;
-        pchMessageStart[3] = 0x07;
-        nDefaultPort = 19781;
+        pchMessageStart[0] = 0x0c;
+        pchMessageStart[1] = 0x12;
+        pchMessageStart[2] = 0x10;
+        pchMessageStart[3] = 0x08;
+        nDefaultPort = 19630;
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1539732399, 4227299255, 0x1d00ffff, 1, 37800000 * COIN);
@@ -300,10 +300,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x00");
 
-        pchMessageStart[0] = 0xfa;
-        pchMessageStart[1] = 0xbf;
-        pchMessageStart[2] = 0xb5;
-        pchMessageStart[3] = 0xda;
+        pchMessageStart[0] = 0xfb;
+        pchMessageStart[1] = 0xbe;
+        pchMessageStart[2] = 0xb6;
+        pchMessageStart[3] = 0xdb;
         nDefaultPort = 18444;
         nPruneAfterHeight = 1000;
 

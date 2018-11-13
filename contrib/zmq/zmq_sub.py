@@ -8,10 +8,10 @@
 
     Imperium should be started with the command line arguments:
         imperiumd -testnet -daemon \
-                -zmqpubrawtx=tcp://127.0.0.1:29780 \
-                -zmqpubrawblock=tcp://127.0.0.1:29780 \
-                -zmqpubhashtx=tcp://127.0.0.1:29780 \
-                -zmqpubhashblock=tcp://127.0.0.1:29780
+                -zmqpubrawtx=tcp://127.0.0.1:29629 \
+                -zmqpubrawblock=tcp://127.0.0.1:29629 \
+                -zmqpubhashtx=tcp://127.0.0.1:29629 \
+                -zmqpubhashblock=tcp://127.0.0.1:29629
 
     We use the asyncio library here.  `self.handle()` installs itself as a
     future at the end of the function.  Since it never returns with the event
@@ -34,7 +34,7 @@ if (sys.version_info.major, sys.version_info.minor) < (3, 5):
     print("This example only works with Python 3.5 and greater")
     sys.exit(1)
 
-port = 29780
+port = 29629
 
 class ZMQHandler():
     def __init__(self):
